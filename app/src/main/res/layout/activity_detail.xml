@@ -30,7 +30,10 @@
                 android:layout_alignBottom="@id/sportsImageDetail"
                 android:padding="16dp"
                 android:text="@string/title_placeholder"
-                android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                style="@style/SportsDetailText"
+
+                />
 
             <TextView
                 android:id="@+id/newsTitleDetail"
@@ -47,6 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/newsTitleDetail"
                 android:padding="16dp"
+                style="@style/SportsDetailTitle"
                 android:text="@string/lorem" />
 
         </RelativeLayout>
